@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.it5.firebasedemo.MainActivity">
+
+    <Button
+        android:id="@+id/push"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="推送"/>
+    <Button
+        android:id="@+id/analytics"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="google分析"/>
+    <Button
+        android:id="@+id/auth"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="登录"/>
+</LinearLayout>
